@@ -20,7 +20,6 @@ public class Prova {
     public static final int TAM_OP = 1000;
     static Scanner sc = new Scanner(System.in);
 
-    // Função que a prova diz que já existe (incluída aqui só para o código rodar)
     public static int buscaId(Conta[] v, int tam, int x) {
         for (int i = 0; i < tam; i++) {
             if (v[i].id == x) {
@@ -73,7 +72,6 @@ public class Prova {
 
     // ---------- Questão 2 ----------
 
-    // Pressupõe vetor ordenado por cliente (ordem alfabética)
     public static int buscaBinariaCliente(Conta[] v, int tam, String x) {
         int ini = 0;
         int fim = tam - 1;
